@@ -12,7 +12,8 @@ import (
 )
 
 func main() {
-	// Definition of the Fabric SDK properties    多通道配置， 修改  channelid  ChannelConfig  ChainCodeID  ChaincodePath   以及config.yaml文件
+	
+	// Definition of the Fabric SDK properties    多通道配置，先生成对应通道配置文件，交易配置文件， 修改  channelid  ChannelConfig  ChainCodeID  ChaincodePath   以及config.yaml文件
 	fSetup := blockchain.FabricSetup{
 		// Network parameters
 		OrdererID: "orderer.hf.chainhero.io",
